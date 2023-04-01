@@ -94,7 +94,7 @@ public class PropertiesTag extends TagSupport {
                 String key = (String) propsEnum.nextElement();
                 String value = props.getProperty(key);
 
-                // @todo we should parse the value in case its an Expression
+                // TODO we should parse the value in case its an Expression
                 context.setVariable(key, value);
             }
         }

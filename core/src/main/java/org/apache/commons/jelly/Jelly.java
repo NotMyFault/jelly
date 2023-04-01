@@ -321,7 +321,7 @@ public class Jelly {
             String key = (String) propsEnum.nextElement();
             String value = props.getProperty(key);
             
-            // @todo we should parse the value in case its an Expression
+            // TODO we should parse the value in case its an Expression
             theContext.setVariable(key, value);
         }
     }

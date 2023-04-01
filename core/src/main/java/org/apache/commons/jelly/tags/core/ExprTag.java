@@ -58,7 +58,7 @@ public class ExprTag extends TagSupport {
     /**
      * Sets the Jexl expression to evaluate.
      *
-     * @required true
+     * @param value required
      */
     public void setValue(Expression value) {
         this.value = value;
